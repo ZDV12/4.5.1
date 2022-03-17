@@ -30,7 +30,7 @@ public class Program {
             tempContact = phoneBook.findContact("82142345221");
             System.out.println(tempContact);
 
-            System.out.println("Блок с пропущенными вызовами:\n------------------------------------\n");
+            System.out.println("\nБлок с пропущенными вызовами:\n------------------------------------\n");
             MissedСalls missedСalls = new MissedСalls();
             missedСalls.addMissingCall("89123456789");
             Thread.sleep(2000);
